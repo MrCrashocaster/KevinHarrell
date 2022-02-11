@@ -1,0 +1,25 @@
+{
+  "name": "kevinharrell",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass styles/scss/main.scss styles/css/style.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrCrashocaster/kevinharrell"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://www.theadscompany.co"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
