@@ -1,4 +1,7 @@
 $(window).resize(function() {
-    var d = document.getElementById("headline-2");
-    d.classList.remove("animate__fadeIn");
+    var desktop = document.getElementById("headline-2");
+    var mobile = document.getElementById("headline-2-mobile");
+
+    desktop.classList.remove("animate__fadeIn");
+    mobile.classList.remove("animate__fadeIn");
 });

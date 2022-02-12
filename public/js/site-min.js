@@ -1,1 +1,1 @@
-$(window).resize((function(){document.getElementById("headline-2").classList.remove("animate__fadeIn")}));
+$(window).resize((function(){var e=document.getElementById("headline-2"),n=document.getElementById("headline-2-mobile");e.classList.remove("animate__fadeIn"),n.classList.remove("animate__fadeIn")}));
