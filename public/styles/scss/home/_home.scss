@@ -1,3 +1,7 @@
+.animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+  }
+
 .headlineContent {
     margin: 2em 0 14em 0;
     z-index: -2;
@@ -33,6 +37,10 @@
         letter-spacing: .07rem;
         font-weight: 800;
 
+        .animate__animated.animate__fadeIn {
+            --animate-duration: 10s;
+        }
+
         @include tablet {
             display: none;
         }
@@ -47,33 +55,6 @@
             @include laptop-min-1700 {    
                 font-size: 13.4rem;
             }
-        }
-    }
-}
-
-.headline-intro-2-mobile {
-    font-size: 15vw;
-    text-align: right;
-    color: $darkGrey;
-    text-transform: uppercase;
-    letter-spacing: -.7rem;
-    font-weight: 700;
-    display: none;
-
-    @include tablet {
-        display: block;
-        letter-spacing: 0;
-    }
-
-    @include laptop-min-1700 {    
-        font-size: 14rem;
-    }
-
-    span {
-        font-size: 14.4vw;
-
-        @include laptop-min-1700 {    
-            font-size: 13.4rem;
         }
     }
 }

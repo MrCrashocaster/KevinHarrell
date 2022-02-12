@@ -1,0 +1,75 @@
+.headlineContentContact {
+    margin: 2em 0 6em 0;
+    z-index: -2;
+
+    .headline-intro {
+        font-size: 17.7vw;
+        text-align: right;
+        color: #1e1e1e;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: -.07em;
+        line-height: .65em;
+
+        @include laptop-min-1700 {    
+               font-size: 16rem;
+        }
+
+        span {
+            font-size: 16.7vw;
+            letter-spacing: -.02em;
+
+            @include laptop-min-1700 {    
+                font-size: 15.3rem;
+            }
+        }
+    }
+
+    .headline-intro-contact-2 {
+        font-size: 15vw;
+        text-align: right;
+        color: $darkGrey;
+        text-transform: uppercase;
+        font-weight: 800;
+
+        @include laptop-min-1700 {    
+            font-size: 14rem;
+        }
+
+        span {
+            font-size: 14.4vw;
+
+            @include laptop-min-1700 {    
+                font-size: 13.4rem;
+            }
+        }
+    }
+
+}
+
+.headline-intro-2-mobile {
+    font-size: 15vw;
+    text-align: right;
+    color: $darkGrey;
+    text-transform: uppercase;
+    letter-spacing: -.7rem;
+    font-weight: 700;
+    display: none;
+
+    @include tablet {
+        display: block;
+        letter-spacing: 0;
+    }
+
+    @include laptop-min-1700 {    
+        font-size: 14rem;
+    }
+
+    span {
+        font-size: 14.4vw;
+
+        @include laptop-min-1700 {    
+            font-size: 13.4rem;
+        }
+    }
+}

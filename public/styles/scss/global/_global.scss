@@ -119,6 +119,7 @@ body {
 a {
   text-decoration: none;
   color: initial;
+  cursor: pointer;
 }
 
 h1, .h1 {
@@ -433,6 +434,29 @@ input[type="radio"]{
   .col3 {
     padding: 25px 0px 6px 0;
 
+    .githubSVG {
+      width: 90px;
+      display: inline-flex;
+    }
+
+    a.github {
+      width: 100%;
+    }
+
+    .linkedinSVG {
+      width: 90px;
+      display: inline-flex;
+    }
+
+    a.linkedin {
+      width: 100%;
+    }
+
+    a {
+      display: block;
+      margin: 15px;
+    }
+
     @include tablet {
       width: 100%;
     }
@@ -440,6 +464,7 @@ input[type="radio"]{
 
   .contact {
     display: flex;
+    justify-content: center;
   
     .contactSVG {
       width: 128px;
