@@ -33,6 +33,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/firebase-debug.log" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/firebase-debug.log",
+      "oF" : 0
+    },
     "\/firebase.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -63,6 +71,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/404.html",
+      "oF" : 0
+    },
+    "\/public\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/about.html",
       "oF" : 0
     },
     "\/public\/contact.html" : {
@@ -323,6 +339,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/public\/styles\/scss\/404\/_404.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/public\/styles\/scss\/about\/_about.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/public\/styles\/scss\/about\/_about.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

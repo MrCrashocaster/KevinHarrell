@@ -724,6 +724,20 @@ img {
   }
 }
 
+.htmlBackground {
+  mix-blend-mode: exclusion;
+  position: absolute;
+  height: auto;
+  width: 40%;
+  top: 70%;
+  left: 20%;
+}
+
+.about .aboutContent {
+  width: 40%;
+  float: right;
+}
+
 .headlineContentContact {
   margin: 2em 0 6em 0;
   z-index: -2;
