@@ -20,13 +20,17 @@
             letter-spacing: -.02em;
 
             @include laptop-min-1700 {    
-                font-size: 15.3rem;
+                font-size: 15rem;
             }
         }
     }
 
     .headline-intro-3 {
         font-size: 14vw;
+
+        @include laptop-min-1700 {    
+            font-size: 14.8rem;
+     }
     }
 }
 
@@ -38,6 +42,10 @@
     top: 220px;
     left: 20%;
     opacity: .2;
+
+    @include laptop-min-1700 {    
+        max-width: 49em;
+    }
 
     @include tablet {
         display: none;
@@ -53,7 +61,8 @@
 
         @include tablet {
             float: none;
-            width: 100%;
+            width: 90%;
+            margin: 0 auto 3em;
         }
     }
 }

@@ -759,23 +759,19 @@ img {
 }
 
 .contactContent {
-  width: 100%;
-  margin: 0 auto 5em;
-  height: auto;
-  overflow: hidden;
-}
-.contactContent #contactLinks {
+  width: 50%;
+  margin: 0 auto;
   text-align: center;
 }
 .contactContent .githubSVG {
-  width: 180px;
+  width: 90px;
   display: inline-flex;
 }
 .contactContent a.github {
   width: 100%;
 }
 .contactContent .linkedinSVG {
-  width: 180px;
+  width: 90px;
   display: inline-flex;
 }
 .contactContent a.linkedin {
@@ -794,12 +790,12 @@ img {
   display: flex;
   justify-content: center;
 }
-.contactContent .contact .contactSVG {
-  width: 300px;
+.contactContent .contact .col2 .contactSVG {
+  width: 128px;
 }
-.contactContent .contact .contactSVG:last-child {
+.contactContent .contact .col2 .contactSVG:last-child {
   margin-left: 20px;
-  width: 307px;
+  width: 132px;
 }
 @media (max-width: 768px) {
   .contactContent .contact {
@@ -857,16 +853,11 @@ img {
 }
 @media (min-width: 1700px) {
   .headlineContentAbout .headline-intro span {
-    font-size: 15rem;
+    font-size: 15.3rem;
   }
 }
 .headlineContentAbout .headline-intro-3 {
   font-size: 14vw;
-}
-@media (min-width: 1700px) {
-  .headlineContentAbout .headline-intro-3 {
-    font-size: 14.8rem;
-  }
 }
 
 .htmlBackground {
@@ -877,11 +868,6 @@ img {
   top: 220px;
   left: 20%;
   opacity: 0.2;
-}
-@media (min-width: 1700px) {
-  .htmlBackground {
-    max-width: 49em;
-  }
 }
 @media (max-width: 768px) {
   .htmlBackground {
@@ -897,8 +883,7 @@ img {
 @media (max-width: 768px) {
   .about .aboutContent {
     float: none;
-    width: 90%;
-    margin: 0 auto 3em;
+    width: 100%;
   }
 }
 

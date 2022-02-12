@@ -1,0 +1,56 @@
+.contactContent {
+    width: 100%;
+    margin: 0 auto 5em;
+    height: auto;
+    overflow: hidden;
+
+    #contactLinks {
+        text-align: center;
+    }
+
+    .githubSVG {
+        width: 180px;
+        display: inline-flex;
+      }
+  
+      a.github {
+        width: 100%;
+      }
+  
+      .linkedinSVG {
+        width: 180px;
+        display: inline-flex;
+      }
+  
+      a.linkedin {
+        width: 100%;
+      }
+  
+      a {
+        display: block;
+        margin: 15px;
+      }
+  
+      @include tablet {
+        width: 100%;
+      }
+  
+    .contact {
+      display: flex;
+      justify-content: center;
+
+    .contactSVG {
+        width: 300px;
+        
+        &:last-child {
+        margin-left: 20px;
+        width: 307px;
+        }
+    }
+    
+  
+      @include tablet {
+        justify-content: center;
+      }
+    }
+}
