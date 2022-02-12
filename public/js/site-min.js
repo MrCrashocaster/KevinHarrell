@@ -1,1 +1,1 @@
-$(window).resize((function(){}));
+$(window).resize((function(){document.getElementById("headline-2").classList.remove("animate__fadeIn")}));
