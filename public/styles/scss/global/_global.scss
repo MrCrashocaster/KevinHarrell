@@ -22,6 +22,7 @@ $helvetica: 'Helvetica', sans-serif;
 // COLORS
 $offWhite: #FCFCFC;
 $red: #c60034;
+$lightGrey: #848181;
 $midGrey: #353535;
 $darkGrey: #1e1e1e;
 
@@ -39,6 +40,14 @@ $darkGrey: #1e1e1e;
 
 .red {
   color: $red;
+}
+
+.bg-lightGrey {
+  background-color: $lightGrey;
+}
+
+.lightGrey {
+  color: $lightGrey;
 }
 
 .bg-midGrey {
@@ -358,6 +367,12 @@ input[type="radio"]{
   cursor: pointer;
 }
 
+.deactivated {
+  transform: none;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .btn-surprise {
   height: 100%;
   display: flex;
@@ -420,6 +435,42 @@ input[type="radio"]{
 
 .fa, .fas {
   font-size: 4rem;
+}
+
+/* HERO */
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  opacity: .9;
+}
+
+.projectContent {
+  width: 70%;
+  margin: 6em auto;
+}
+
+.headline-intro-projects {
+  font-size: 15vw;
+  text-align: left;
+  color: $red;
+  text-transform: uppercase;
+  letter-spacing: .7rem;
+  font-weight: 700;
+  line-height: .65em;
+
+  @include laptop-min-1700 {    
+         font-size: 16rem;
+  }
+
+  span {
+      font-size: 14.3vw;
+
+      @include laptop-min-1700 {    
+          font-size: 15.3rem;
+      }
+  }
 }
 
 /* FOOTER */

@@ -266,6 +266,14 @@
       "oAP" : "\/public\/projects.html",
       "oF" : 0
     },
+    "\/public\/projects\/trilake.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/projects\/trilake.html",
+      "oF" : 0
+    },
     "\/public\/robots.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -295,6 +303,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/public\/styles\/css\/style 3-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/public\/styles\/css\/style 4.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/styles\/css\/style 4-min.css",
       "oF" : 0,
       "pg" : 0
     },

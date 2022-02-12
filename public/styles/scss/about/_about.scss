@@ -1,10 +1,47 @@
+.headlineContentAbout {
+    margin: 6em 0 6em 0;
+    z-index: -2;
+
+    .headline-intro {
+        font-size: 15vw;
+        text-align: right;
+        color: #1e1e1e;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: -.07em;
+        line-height: .65em;
+
+        @include laptop-min-1700 {    
+               font-size: 16rem;
+        }
+
+        span {
+            font-size: 14.2vw;
+            letter-spacing: -.02em;
+
+            @include laptop-min-1700 {    
+                font-size: 15.3rem;
+            }
+        }
+    }
+
+    .headline-intro-3 {
+        font-size: 14vw;
+    }
+}
+
 .htmlBackground {
     mix-blend-mode: exclusion;
     position: absolute;
     height: auto;
-    width: 40%;
-    top: 70%;
+    width: 46%;
+    top: 220px;
     left: 20%;
+    opacity: .2;
+
+    @include tablet {
+        display: none;
+    }
 }
 
 .about {
@@ -12,5 +49,11 @@
     .aboutContent {
         width: 40%;
         float: right;
+        margin-bottom: 5em;
+
+        @include tablet {
+            float: none;
+            width: 100%;
+        }
     }
 }
