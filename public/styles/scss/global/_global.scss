@@ -479,6 +479,23 @@ input[type="radio"]{
   background-position: center;
   height: 500px;
   opacity: .9;
+
+  .visitSite {
+    position: relative;
+    background-color: #1e1e1e;
+    text-align: center;
+    width: 100px;
+    
+    p {
+      padding: 15px;
+      color: $offWhite;
+      font-weight: 700;
+
+      &:hover {
+        color: $red;
+      }
+    }
+  }
 }
 
 .projectContent {

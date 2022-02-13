@@ -471,16 +471,12 @@ input[type=radio] {
 .hero .visitSite {
   position: relative;
   background-color: #1e1e1e;
+  color: #FCFCFC;
   text-align: center;
   width: 100px;
 }
 .hero .visitSite p {
   padding: 15px;
-  color: #FCFCFC;
-  font-weight: 700;
-}
-.hero .visitSite p:hover {
-  color: #c60034;
 }
 
 .projectContent {
