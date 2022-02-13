@@ -486,6 +486,7 @@ input[type=radio] {
 .projectContent {
   width: 70%;
   margin: 6em auto;
+  font-weight: 200;
 }
 
 .headline-intro-projects {
@@ -961,6 +962,7 @@ img {
   width: 40%;
   float: right;
   margin-bottom: 5em;
+  font-weight: 200;
 }
 @media (max-width: 768px) {
   .about .aboutContent {
