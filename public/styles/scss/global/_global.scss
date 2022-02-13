@@ -339,6 +339,10 @@ input[type="radio"]{
   width: 20%; 
 }
 
+.display-none {
+  display: none;
+}
+
 // BUTTONS
 
 .btn-wrap {
@@ -360,6 +364,14 @@ input[type="radio"]{
   vertical-align: middle;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.btn-hover {
+  color: $darkGrey;
+
+  &:hover {
+    color: $lightGrey;
+}
 }
 
 .btn:hover {

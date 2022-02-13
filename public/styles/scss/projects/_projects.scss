@@ -6,20 +6,58 @@
         text-align: left;
         color: $darkGrey;
         text-transform: uppercase;
-        letter-spacing: .7rem;
+        letter-spacing: 0.7rem;
         font-weight: 700;
-        line-height: .65em;
+        line-height: 0.65em;
 
-        @include laptop-min-1700 {    
-               font-size: 16rem;
+        @include laptop-min-1700 {
+            font-size: 16rem;
         }
 
         span {
             font-size: 14.3vw;
 
-            @include laptop-min-1700 {    
+            @include laptop-min-1700 {
                 font-size: 15.3rem;
             }
         }
+    }
+}
+
+#control {
+    transition: 0.3s;
+
+    .itemHeadline {
+        z-index: 2;
+    }
+}
+
+.target {
+    position: absolute;
+    visibility: hidden;
+    left: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    img {
+        width: 100%;
+    }
+}
+
+#control:hover ~ .target {
+    visibility: visible;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        left: 0%;
+    }
+    100% {
+        opacity: 1;
+        left: 50%;
+        transform: translateY(-50%);
     }
 }
