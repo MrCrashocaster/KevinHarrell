@@ -30,8 +30,3 @@ $( document ).ready(function() {
         mobile.classList.remove("animate__fadeIn");
     });
 });
-
-
-
-
-
