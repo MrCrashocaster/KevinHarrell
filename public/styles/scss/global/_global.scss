@@ -366,12 +366,21 @@ input[type="radio"]{
   text-transform: uppercase;
 }
 
-.btn-hover {
-  color: $darkGrey;
+.btn-hover-projects {
+  @include tablet-min {
+    display: none;
+  }
+}
 
+.btn-hover-projects-2 {
+  
   &:hover {
     color: $lightGrey;
-}
+  }
+
+  @include tablet {
+    display: none;
+  }
 }
 
 .btn:hover {

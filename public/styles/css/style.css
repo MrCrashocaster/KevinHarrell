@@ -365,11 +365,19 @@ input[type=radio] {
   text-transform: uppercase;
 }
 
-.btn-hover {
-  color: #1e1e1e;
+@media (min-width: 768px) {
+  .btn-hover-projects {
+    display: none;
+  }
 }
-.btn-hover:hover {
+
+.btn-hover-projects-2:hover {
   color: #848181;
+}
+@media (max-width: 768px) {
+  .btn-hover-projects-2 {
+    display: none;
+  }
 }
 
 .btn:hover {
