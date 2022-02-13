@@ -33,6 +33,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/firebase-debug.log" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/firebase-debug.log",
+      "oF" : 0
+    },
     "\/firebase.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -140,16 +148,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/public\/img\/SVG\/Background.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/public\/img\/SVG\/Background.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/public\/img\/SVG\/GitHub QR_2.svg" : {
       "ft" : 2097152,
