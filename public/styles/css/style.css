@@ -1049,7 +1049,7 @@ img {
 .marquee {
   color: #1e1e1e;
   font-size: 6rem;
-  height: 3em;
+  height: 1.65em;
   overflow: hidden;
   position: relative;
   width: 100vw;
@@ -1327,7 +1327,7 @@ img {
 }
 
 #colors .standardsContentContainer .standardsContent .h1 {
-  line-height: 7.2vw;
+  line-height: .73em;
 }
 
 @media (min-width: 1700px) {
@@ -1348,7 +1348,7 @@ img {
 }
 
 #colors .standardsContentContainer .standardsContent p {
-  line-height: 1.5rem;
+  line-height: 1.7em;
   border-top: 2px solid;
   padding-top: 1rem;
 }
@@ -1416,7 +1416,7 @@ img {
 }
 
 #col3Section .col3SectionContainer .singleSection .h3 {
-  line-height: 79%;
+  line-height: .78em;
 }
 
 #col3Section .col3SectionContainer .singleSection p {
