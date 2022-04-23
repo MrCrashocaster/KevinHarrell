@@ -151,6 +151,15 @@
             @include tablet {
                 width: 100%;
             }
+
+            .h3 {
+                line-height: 79%;
+            }
+
+            p {
+                line-height: 1.7em;
+                font-weight: 200;
+            }
         }
     }
 }

@@ -1415,6 +1415,15 @@ img {
   }
 }
 
+#col3Section .col3SectionContainer .singleSection .h3 {
+  line-height: 79%;
+}
+
+#col3Section .col3SectionContainer .singleSection p {
+  line-height: 1.7em;
+  font-weight: 200;
+}
+
 .headlineContentAbout {
   margin: 6em 0 6em 0;
   z-index: -2;
