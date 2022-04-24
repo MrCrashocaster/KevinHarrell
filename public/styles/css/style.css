@@ -320,6 +320,12 @@ h4, .h4 {
   line-height: 1.6em;
 }
 
+@media (max-width: 650px) {
+  h4, .h4 {
+    font-size: 7vw;
+  }
+}
+
 h5, .h5 {
   font-weight: 700;
   font-size: 2.1rem;
@@ -1598,6 +1604,15 @@ img {
   padding: 4em 0;
 }
 
+@media (max-width: 650px) {
+  #mainResume .resumeOutsideContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 #mainResume .resumeOutsideContainer .resumeLeftInnerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1609,6 +1624,12 @@ img {
   width: 25%;
 }
 
+@media (max-width: 650px) {
+  #mainResume .resumeOutsideContainer .resumeLeftInnerContainer {
+    width: 98%;
+  }
+}
+
 #mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent {
   position: relative;
   margin-bottom: 10%;
@@ -1616,6 +1637,7 @@ img {
 
 #mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .h4 {
   font-weight: 900;
+  line-height: .75em;
 }
 
 #mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent p {
@@ -1635,7 +1657,7 @@ img {
 
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer {
   position: relative;
-  margin-bottom: 10%;
+  margin-bottom: 4em;
 }
 
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer:after {
@@ -1662,6 +1684,7 @@ img {
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightContent .h4 {
   font-weight: 900;
   margin-left: 2%;
+  line-height: .75em;
 }
 
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightContent .h4:after {
@@ -1677,32 +1700,42 @@ img {
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightContent .timelineIcon {
   width: 40px;
   height: 40px;
-  background-color: #1e1e1e;
   position: relative;
 }
 
-#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent {
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner {
+  padding: 2em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent {
   position: relative;
   left: 90px;
-  padding: 1em 0;
   width: 70%;
 }
 
-#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent .h4 {
+@media (max-width: 650px) {
+  #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent {
+    width: 98%;
+  }
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent .h4 {
   text-transform: uppercase;
   font-weight: 900;
+  line-height: .75em;
 }
 
-#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent p {
-  margin: 0;
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent li {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
 }
 
-#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent:after {
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent:after {
   content: '';
   position: absolute;
   width: 60px;
   height: 10px;
-  top: 50%;
+  top: 30%;
   background: #c60034;
   left: -70px;
   z-index: -1;
