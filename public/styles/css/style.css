@@ -1305,6 +1305,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -1328,7 +1329,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 39%;
+  width: 40%;
+  mix-blend-mode: color-dodge;
 }
 
 @media (max-width: 768px) {
