@@ -2106,11 +2106,11 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 65%;
+  row-gap: 5em;
 }
 
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer {
   position: relative;
-  margin-bottom: 4em;
 }
 
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer:after {
