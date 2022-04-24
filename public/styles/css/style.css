@@ -327,8 +327,8 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-weight: 700;
-  font-size: 2.1rem;
+  font-weight: 500;
+  font-size: 1.5vw;
   line-height: 1.4em;
 }
 
@@ -1646,6 +1646,457 @@ img {
   line-height: 1.5em;
 }
 
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 90%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #html .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 7%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 85%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #scss .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 12%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 72%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #javascript .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 24%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 78%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #jquery .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 19%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 55%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #react .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 42%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 93%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #wordpress .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 4%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 77%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #photoshop .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 20%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill {
+  position: relative;
+  padding: .5em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill .singleSkillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill .singleSkillContainer .marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill .singleSkillContainer .marker p {
+  position: absolute;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill .singleSkillContainer .marker i.fas.fa-caret-down {
+  font-size: 2vw;
+  position: relative;
+  left: 91%;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill .singleSkillContainer .singleSkillBar {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .skillsList #illustrator .singleSkill .singleSkillContainer .singleSkillBar span {
+  background-color: #c60034;
+  width: 6%;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .contactInfoLinksContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0;
+  row-gap: 10px;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .contactInfoLinksContainer .h3 {
+  line-height: .8em;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .contactInfoLinksContainer .h3 a {
+  font-size: 1.5vw;
+}
+
+#mainResume .resumeOutsideContainer .resumeLeftInnerContainer .contactInfoLinksContainer .h3 a:last-child {
+  font-size: 3vw;
+}
+
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1719,6 +2170,10 @@ img {
   #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent {
     width: 98%;
   }
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent .h5 {
+  margin-bottom: 1%;
 }
 
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent .h4 {

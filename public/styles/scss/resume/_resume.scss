@@ -105,6 +105,375 @@
                 p {
                     line-height: 1.5em;
                 }
+
+                .skillsList {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 1em 0;
+
+                    #html {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 90%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 7%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #scss {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 85%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 12%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #javascript {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 72%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 24%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #jquery {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 78%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 19%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #react {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 55%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 42%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #wordpress {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 93%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 4%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #photoshop {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 77%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 20%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #illustrator {
+
+                        .singleSkill {
+                            position: relative;
+                            padding: .5em 0;
+
+                            .singleSkillContainer {
+                                display: flex;
+                                flex-direction: column;
+
+                                .marker {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p {
+                                        position: absolute;
+                                    }
+
+                                    i.fas.fa-caret-down {
+                                        font-size: 2vw;
+                                        position: relative;
+                                        left: 91%;
+                                    }
+                                }
+
+                                .singleSkillBar {
+                                    background-color: black;
+                                    width: 100%;
+                                    height: 20px;
+
+                                    span {
+                                        background-color: $red;
+                                        width: 6%;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contactInfoLinksContainer {
+                display: flex;
+                flex-direction: column;
+                padding: 1em 0;
+                row-gap: 10px;
+
+                .h3 {
+                    line-height: .8em;
+
+                    a {
+                        font-size: 1.5vw;
+
+                        &:last-child {
+                            font-size: 3vw;
+                        }
+                    }
+                }
             }
         }
 
@@ -166,6 +535,10 @@
 
                         @include mobile {
                             width: 98%;
+                        }
+
+                        .h5 {
+                            margin-bottom: 1%;
                         }
 
                         .h4 {
