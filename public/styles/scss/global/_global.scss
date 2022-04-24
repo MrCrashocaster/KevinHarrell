@@ -158,6 +158,15 @@ body {
   }
 }
 
+ul {
+  margin: 0;
+
+  li {
+    list-style: none;
+    padding: 5px 0;
+  }
+}
+
 img {
   width: 100%;
 }

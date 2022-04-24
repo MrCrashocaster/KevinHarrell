@@ -103,6 +103,18 @@
             width: 65%;
 
             .singleRightContentContainer {
+                position: relative;
+
+                &:after {
+                    content: '';
+                    height: 100%;
+                    width: 10px;
+                    position: absolute;
+                    top: 15px;
+                    background-color: $darkGrey;
+                    z-index: -1;
+                    left: 15px;
+                }
 
                 .singleRightContent {
                     display: flex;
@@ -129,6 +141,32 @@
                         height: 40px;
                         background-color: $darkGrey;
                         position: relative;
+                    }
+                }
+
+                .singleRightInnerContent {
+                    position: relative;
+                    left: 60px;
+                    padding: 1em 0;
+
+                    .h4 {
+                        text-transform: uppercase;
+                        font-weight: 900;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        width: 30px;
+                        height: 10px;
+                        top: 50%;
+                        background: $red;
+                        left: -40px;
+                        z-index: -1;
                     }
                 }
             }

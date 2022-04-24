@@ -153,6 +153,15 @@ body.fixed {
   overflow: hidden;
 }
 
+ul {
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
 img {
   width: 100%;
 }
@@ -1619,6 +1628,21 @@ img {
   width: 65%;
 }
 
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer {
+  position: relative;
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer:after {
+  content: '';
+  height: 100%;
+  width: 10px;
+  position: absolute;
+  top: 15px;
+  background-color: #1e1e1e;
+  z-index: -1;
+  left: 15px;
+}
+
 #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightContent {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1649,6 +1673,32 @@ img {
   height: 40px;
   background-color: #1e1e1e;
   position: relative;
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent {
+  position: relative;
+  left: 60px;
+  padding: 1em 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent .h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent p {
+  margin: 0;
+}
+
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInnerContent:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  top: 50%;
+  background: #c60034;
+  left: -40px;
+  z-index: -1;
 }
 
 .headlineContentContact {
