@@ -1624,6 +1624,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 25%;
+  row-gap: 5em;
 }
 
 @media (max-width: 650px) {
@@ -1634,7 +1635,6 @@ img {
 
 #mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent {
   position: relative;
-  margin-bottom: 10%;
 }
 
 #mainResume .resumeOutsideContainer .resumeLeftInnerContainer .singleLeftContent .h4 {
