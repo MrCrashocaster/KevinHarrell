@@ -13,6 +13,16 @@ $( document ).ready(function() {
         $('#overlapText').addClass('offWhite');
         $('#overlapText').removeClass('darkGrey');
     }
+
+    $('.fade-up, .fade-down, .fade-right, .fade-left').each(function() {
+        var crrnt = $(this);
+        if (crrnt.visible( true )) {
+            crrnt.addClass('show');
+        }
+        else if (!crrnt.visible( true )) {
+            crrnt.removeClass('show');
+        }
+    });
     
 
     $(window).resize(function() {
