@@ -570,6 +570,10 @@
                 display: flex;
                 flex-direction: row;
                 position: relative;
+
+                @include mobile {
+                    flex-direction: column;
+                }
                 
                 .singleRightContentContainer {
                     position: relative;
@@ -617,6 +621,10 @@
                                 top: 41%;
                                 margin-left: 2%;
                                 position: absolute;
+
+                                @include mobile {
+                                    width: 100% !important;
+                                }
                             }
                         }
     
@@ -628,7 +636,26 @@
                     }
     
                     .singleRightInner {
-                        padding: 2em 0;
+                        padding: 2em 4em 2em 4em;
+
+                        @include mobile {
+                            padding: 2em 0em 2em 4em;
+                        }
+
+                        .hobbyContentContainer {
+                            max-width: 490px;
+
+                            .hobbyIconContainer {
+
+                                .singleHobby {
+                                }
+                            }
+
+                            .hobbyBody {
+                                text-align: center;
+                                line-height: 1.7rem;
+                            }
+                        }
     
                         .singleRightInnerContent {
                             position: relative;
