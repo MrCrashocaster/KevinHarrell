@@ -752,7 +752,7 @@ input[type=radio] {
 #quickSelectionLinks .itemList .wrapper1700:after {
   content: "";
   height: 5px;
-  width: 100%;
+  width: 98%;
   position: absolute;
   background-color: #353535;
 }
