@@ -264,17 +264,17 @@ h2, .h2 {
 
 h3, .h3 {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1.4em;
 }
 @media (max-width: 768px) {
   h3, .h3 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 }
 @media (max-width: 650px) {
   h3, .h3 {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 }
 
@@ -493,6 +493,7 @@ input[type=radio] {
 
 .btn-wrap {
   display: flex;
+  align-items: center;
 }
 .btn-wrap .col2 {
   width: auto;
@@ -588,6 +589,12 @@ input[type=radio] {
 .single-item {
   display: flex;
   padding: 1.4em 0;
+}
+.single-item h2, .single-item .h2 {
+  margin-left: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #c60034;
 }
 .single-item p {
   margin-left: 30px;
@@ -1178,6 +1185,7 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 6em 0;
+  align-items: center;
 }
 @media (max-width: 768px) {
   #col3Section .col3SectionContainer {
@@ -1191,6 +1199,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  text-align: center;
 }
 @media (max-width: 768px) {
   #col3Section .col3SectionContainer .singleSection {
@@ -1198,7 +1207,7 @@ img {
   }
 }
 #col3Section .col3SectionContainer .singleSection .h3 {
-  line-height: 0.78em;
+  line-height: 1em;
 }
 #col3Section .col3SectionContainer .singleSection p {
   line-height: 1.7em;
@@ -1333,6 +1342,12 @@ img {
 .about .aboutContent p {
   font-size: 2vw;
   line-height: 1.3em;
+}
+@media (max-width: 768px) {
+  .about .aboutContent p {
+    font-size: 2.5vw;
+    line-height: 1.6em;
+  }
 }
 
 #downloadButton .downloadButtonContainer {
@@ -1757,6 +1772,9 @@ img {
   position: relative;
   left: 90px;
   width: 70%;
+}
+#mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent a:hover {
+  color: #c60034;
 }
 @media (max-width: 650px) {
   #mainResume .resumeOutsideContainer .resumeRightInnerContainer .singleRightContentContainer .singleRightInner .singleRightInnerContent {

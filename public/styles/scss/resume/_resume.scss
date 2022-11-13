@@ -533,6 +533,10 @@
                         left: 90px;
                         width: 70%;
 
+                        a:hover {
+                            color: $red;
+                        }
+
                         @include mobile {
                             width: 98%;
                         }

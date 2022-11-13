@@ -229,15 +229,15 @@ h2, .h2 {
 
 h3, .h3 {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1.4em;
 
   @include tablet {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
   @include mobile {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 }
 
@@ -466,6 +466,7 @@ input[type="radio"]{
 
 .btn-wrap {
   display: flex;
+  align-items: center;
 
   .col2 {
     width: auto;
@@ -549,6 +550,13 @@ input[type="radio"]{
 .single-item {
   display: flex;
   padding: 1.4em 0;
+
+  h2, .h2 {
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: $red;
+  }
 
   p {
     margin-left: 30px;

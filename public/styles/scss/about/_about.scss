@@ -120,6 +120,11 @@
         p {
             font-size: 2vw;
             line-height: 1.3em;
+
+            @include tablet {
+                font-size: 2.5vw;
+                line-height: 1.6em;
+            }
         }
     }
 }
