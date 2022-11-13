@@ -586,9 +586,25 @@ input[type=radio] {
     opacity: 0;
   }
 }
+.show-flex {
+  display: flex !important;
+}
+
+.hide {
+  display: none !important;
+}
+
 .single-item {
   display: flex;
   padding: 1.4em 0;
+}
+.single-item .project {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .single-item {
+    padding: 1em 0;
+  }
 }
 .single-item h2, .single-item .h2 {
   margin-left: 30px;
@@ -680,12 +696,76 @@ input[type=radio] {
 }
 
 /* QUICK LINKS */
+#alert {
+  display: none;
+}
+
+.showAlert {
+  display: flex !important;
+  position: relative;
+  justify-content: flex-end;
+  width: 98%;
+  max-width: 1700px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "Prompt", sans-serif;
+  color: #c60034;
+  font-weight: 700;
+  font-size: 2vw;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 768px) {
+  .showAlert {
+    font-size: 4vw;
+  }
+}
+
+#quickSelectionLinks .selectProject {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#quickSelectionLinks .selectProject select {
+  font-size: 2.5vw;
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+@media (max-width: 768px) {
+  #quickSelectionLinks .selectProject select {
+    font-size: 4vw;
+  }
+}
 #quickSelectionLinks .itemList {
   padding: 6em 0 0;
 }
 @media (max-width: 768px) {
   #quickSelectionLinks .itemList {
     padding: 3em 0 0;
+  }
+}
+#quickSelectionLinks .itemList .wrapper1700:after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  background-color: #353535;
+}
+#quickSelectionLinks .itemList .projectTag {
+  font-size: 1.2vw;
+  font-weight: 700;
+  color: #c60034;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  #quickSelectionLinks .itemList .projectTag {
+    font-size: 2vw;
   }
 }
 

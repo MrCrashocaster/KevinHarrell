@@ -547,9 +547,25 @@ input[type="radio"]{
   }
 }
 
+.show-flex {
+  display: flex !important;
+}
+
+.hide {
+  display: none !important;
+}
+
 .single-item {
   display: flex;
   padding: 1.4em 0;
+
+  .project {
+    display: flex;
+  }
+
+  @include tablet {
+    padding: 1em 0;
+  }
 
   h2, .h2 {
     margin-left: 30px;
@@ -653,12 +669,78 @@ input[type="radio"]{
 
 /* QUICK LINKS */
 
+#alert {
+  display: none;
+}
+
+.showAlert {
+  display: flex !important;
+  position: relative;
+  justify-content: flex-end;
+  width: 98%;
+  max-width: 1700px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: $prompt;
+  color: $red;
+  font-weight: 700;
+  font-size: 2vw;
+  margin-bottom: 0.5em;
+
+  @include tablet {
+    font-size: 4vw;
+  }
+}
+
 #quickSelectionLinks {
+
+  .selectProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    select {
+      font-size: 2.5vw;
+      font-family: $prompt;
+      font-weight: 700;
+      background: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-bottom: 5px;
+      border-bottom: 2px solid black;
+
+      @include tablet {
+        font-size: 4vw;
+      }
+    }
+  }
+
   .itemList {
     padding: 6em 0 0;
 
     @include tablet {
       padding: 3em 0 0;
+    }
+
+    .wrapper1700:after {
+        content: '';
+        height: 5px;
+        width: 100%;
+        position: absolute;
+        background-color: #353535;
+    }
+
+    .projectTag {
+      font-size: 1.2vw;
+      font-weight: 700;
+      color: $red;
+      margin-left: 30px;
+      margin-bottom: 0;
+
+      @include tablet {
+        font-size: 2vw;
+      }
     }
   }
 }
