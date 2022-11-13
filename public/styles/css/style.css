@@ -735,6 +735,7 @@ input[type=radio] {
   border-right: none;
   padding-bottom: 5px;
   border-bottom: 2px solid black;
+  color: black;
 }
 @media (max-width: 768px) {
   #quickSelectionLinks .selectProject select {
